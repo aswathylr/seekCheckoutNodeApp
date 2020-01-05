@@ -1,0 +1,24 @@
+{
+  "name": "seekcheckoutnodeapp",
+  "version": "1.0.0",
+  "description": "Seek Checkout Node CLI App",
+  "main": "bin/index.js",
+  "bin": {
+    "checkout": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Aswathy",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "spawn-command": "0.0.2-1"
+  }
+}
